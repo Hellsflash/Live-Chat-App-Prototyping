@@ -1,0 +1,77 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="e254813c-55a4-4d48-aa95-4374400eef04">
+    <Page.Content>
+        <Content Width="800" Height="600" Id="1a9f9233-0975-472b-8eaa-444ea990349c">
+            <Content.Layers>
+                <Layer Id="6e9e2bf7-c2fd-468b-9139-b089b784b0d6" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="3d2bd2aa-1816-4bc2-9c21-c5085a0dcb29" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="800,600" Id="65bebd62-1459-4b83-8f54-c7dae056ab10" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="9bd3a671-41ed-4f3c-9434-69115b5f9230" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/02/2017 10:31:06" Id="a8fa9b05-a842-4b7e-8108-804df79371d1">
+            <Scene.KeyFrames>
+                <KeyFrame Id="9a43b52d-f65b-4eda-9093-20f5baedf202">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="6e9e2bf7-c2fd-468b-9139-b089b784b0d6">
+                            <Add.Item>
+                                <Title RichText="Customize your profile" FontSize="21" Id="89411070-5f60-45c8-92e5-8a6f727ad500" Panel.Bounds="17,17,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="6e9e2bf7-c2fd-468b-9139-b089b784b0d6">
+                            <Add.Item>
+                                <ContainerBox Opacity="1" Id="0497462e-13ff-4e59-b6eb-c8d786031415" Panel.Bounds="17,96,659{5,2147483647},352{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="492d23c3-c50d-4e7b-a6b0-ffe2f89e69fa">
+                                            <Container.Children>
+                                                <Label RichText="Nickname:" Id="503e31ce-9771-44c3-9a69-b20620244d06" Panel.Bounds="14,22,5*{5,2147483647},5*{5,2147483647}" />
+                                                <TextBox WatermarkText="type your nickname here" Id="520627f3-9707-49b9-aa67-cfcd5c5ec29b" Panel.Bounds="97,19,170{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="Nickname:" Id="5672dbe5-3c0f-45dc-a4c9-c840bd348a02" Panel.Bounds="14,22,5*{5,2147483647},5*{5,2147483647}" />
+                                                <TextBox WatermarkText="type your nickname here" Id="27940227-334b-413a-b169-3c6f688af039" Panel.Bounds="97,19,170{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="Email:" Id="e495fcf6-dbab-4d7b-9e3d-63541f3985d9" Panel.Bounds="14,66,5*{5,2147483647},5*{5,2147483647}" />
+                                                <TextBox WatermarkText="type your email here" Id="9386f025-6b85-4a74-80c7-1dcc10d2934d" Panel.Bounds="97,63,140{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="Password" FontFamily="Open Sans" Id="0e089791-35f6-484b-aa16-00c2c8aaf0fd" Panel.Bounds="14,107,5*{5,2147483647},5*{5,2147483647}" />
+                                                <PasswordBox Password="aasasasad" WatermarkText="should be at least 6 symbols long" FontFamily="Open Sans" Id="929c169d-f5ec-465f-9aeb-459e7bf199ea" Panel.Bounds="97,104,214{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="Prefered language:" FontFamily="Open Sans" Id="e1a8c85e-e2bb-4ff0-a7f2-84b108bc33eb" Panel.Bounds="14,144,120{5,2147483647},18*{5,2147483647}" />
+                                                <ComboBox Id="eb9ce445-9207-4750-8452-df3eb4598a38" Panel.Bounds="156,139,150{5,2147483647},28{5,2147483647}">
+                                                    <ComboBox.Items>
+                                                        <Item Text="Bulagrian" Id="3b8ac07b-caeb-47e0-bd43-5b38b3b22067" />
+                                                        <Item Text="English" Id="d9d60a92-3cb2-49a5-a68b-e25675b82375" />
+                                                        <Item Text="German" Id="0d105099-abad-4b2e-937b-919694eec6eb" />
+                                                        <Item Text="French" Id="5ed3fe6a-9279-4afb-a8cb-ab0b3a186a88" />
+                                                    </ComboBox.Items>
+                                                </ComboBox>
+                                                <Image SourcePath="assets/user-default.png" Opacity="0.6" Id="b2060d29-cad2-4988-9a5d-3bcb4e906a71" Panel.Bounds="411,19,146{5,2147483647},155{5,2147483647}" />
+                                                <Label RichText="Add profile picture" FontFamily="Open Sans" Id="06c6834b-5a40-4d47-8732-5783931da39a" Panel.Bounds="432,107,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="6e9e2bf7-c2fd-468b-9139-b089b784b0d6">
+                            <Add.Item>
+                                <Button Text="Save changes" FontFamily="Open Sans" Id="57d9a9c5-4c98-4166-a83c-2bab649facbb" Panel.Bounds="170,476,341{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Disconnected State" StateGroup="a8fa9b05-a842-4b7e-8108-804df79371d1" ParentScene="a8fa9b05-a842-4b7e-8108-804df79371d1" Created="11/02/2017 10:37:17" Id="ed6acda4-31d6-46a5-8a2b-dc5c37fe48dc">
+            <Scene.KeyFrames>
+                <KeyFrame Id="612fb544-3435-4c36-bfc7-1a03e6944045" />
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
