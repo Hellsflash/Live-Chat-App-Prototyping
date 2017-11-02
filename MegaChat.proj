@@ -2,9 +2,9 @@
 <Project xmlns="http://prototypes.infragistics.com/"
                                                                                      Id="Z22WWOFU65FU" StartScreens="/Home.screen" IndigoVersion="9">
     <Project.Defaults>
-        <ProjectDefaults Viewport="375,647">
+        <ProjectDefaults Viewport="800,600">
             <ProjectDefaults.Device>
-                <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+                <DeviceInfo Id="Browser" Orientation="None" />
             </ProjectDefaults.Device>
         </ProjectDefaults>
     </Project.Defaults>
