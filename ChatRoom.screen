@@ -1,0 +1,77 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                   Id="42359136-d0aa-4119-8f5a-7d6b56d958ac">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="0d4714d5-5bef-4354-b378-e84a7d436760">
+            <Content.Layers>
+                <Layer Id="497d44ac-301c-4735-8c03-cabbcc8aeb9f" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="12afcf50-8612-47dd-82c8-efd0b442d24f" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="5fdca68a-4044-4456-8872-3e942a097677" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="d022a8f3-7557-4c38-9206-89270e944f3e" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/02/2017 16:55:30" Id="fa57146b-ce4a-4787-9647-4d62c501fb64">
+            <Scene.KeyFrames>
+                <KeyFrame Id="5762f995-fbd6-4ac7-9638-736549ce31e2">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="497d44ac-301c-4735-8c03-cabbcc8aeb9f">
+                            <Add.Item>
+                                <i:TabBar Id="50cfc97b-7ef6-443b-a23d-d47311e57193" Panel.Bounds="0,0,375{130,2147483647},647{70,2147483647}">
+                                    <i:TabBar.Items>
+                                        <i:TabBarItem Header="Leave" IsSelected="True" Id="5cbb6e62-d868-46f6-ac7d-37ae1ed1c0eb">
+                                            <i:TabBarItem.Icon>
+                                                <Icon CatalogId="Back" Id="0e69dc9d-24aa-4131-8f13-dc7e4499d54a" />
+                                            </i:TabBarItem.Icon>
+                                            <i:TabBarItem.Content>
+                                                <Container ClipToContainer="True" Id="09fd50dc-69a6-4177-88b1-61016728bf7c">
+                                                    <Container.Children>
+                                                        <i:Header Text="Bulgaria" FontSize="16" FontFamily="Open Sans" Id="1f76504a-d090-48b8-8a8c-904cd7da8bc9" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                                                    </Container.Children>
+                                                </Container>
+                                            </i:TabBarItem.Content>
+                                            <i:TabBarItem.Click>
+                                                <CommandNavigate Screen="/Home.screen" Created="11/02/2017 17:21:23" Id="8d971be2-2bb0-4d86-9d99-15581f942401">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Type="Push" Duration="300" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </i:TabBarItem.Click>
+                                        </i:TabBarItem>
+                                        <i:TabBarItem Header="Message" Id="a6624379-212d-465f-8896-9edf85d9ee6c">
+                                            <i:TabBarItem.Icon>
+                                                <Icon CatalogId="Message" Id="bc96368e-ce0e-4c46-b4f8-dadbc43d2189" />
+                                            </i:TabBarItem.Icon>
+                                            <i:TabBarItem.Content>
+                                                <Container ClipToContainer="True" Id="80d8eed5-4b0d-4466-a6c6-ca6ed216b9b6" />
+                                            </i:TabBarItem.Content>
+                                        </i:TabBarItem>
+                                    </i:TabBar.Items>
+                                </i:TabBar>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="497d44ac-301c-4735-8c03-cabbcc8aeb9f">
+                            <Add.Item>
+                                <i:TextArea Text="//TODO: add picture here" FontFamily="Open Sans" Id="b3c3b4b5-e92c-4cb5-a317-b6b2f002b55e" Panel.Bounds="0,46,375{22,2147483647},552{31,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="497d44ac-301c-4735-8c03-cabbcc8aeb9f">
+                            <Add.Item>
+                                <i:Header Text="Bulgaria" FontSize="16" FontFamily="Open Sans" Id="03f91265-c310-4e9e-a53f-957009035881" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

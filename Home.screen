@@ -1,0 +1,215 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                   Id="c3dde851-8c2f-41db-b0a3-30d37098059e">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="233955b5-8215-46bc-89b3-e2cbb69b033a">
+            <Content.Layers>
+                <Layer Id="02a6fa2d-4577-4443-88ba-734b93c487d8" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="7af50c34-38df-46c6-aed6-a09beacd8c29" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="461fa8ff-3054-4b98-98ba-ceec9b935b51" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="33eac990-7a8c-45ff-b70b-b37d598e6b4f" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/02/2017 16:27:59" Id="da53c17f-c6d9-432c-8219-21b5f15ee299">
+            <Scene.KeyFrames>
+                <KeyFrame Id="7d17a53b-e20a-4579-b4aa-7a7b40b22ea0">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="02a6fa2d-4577-4443-88ba-734b93c487d8">
+                            <Add.Item>
+                                <i:TabBar Id="2e654741-f371-4438-9412-e307a88b1f6b" Panel.Bounds="0,0,375{130,2147483647},647{70,2147483647}">
+                                    <i:TabBar.Items>
+                                        <i:TabBarItem Header="Rooms" IsSelected="True" Id="b535e2cb-22ff-45c9-9da3-a92d8c12f876">
+                                            <i:TabBarItem.Icon>
+                                                <Icon CatalogId="fa-bars" Id="f481b3f2-71e4-4a1c-9e47-d008c14d230d" />
+                                            </i:TabBarItem.Icon>
+                                            <i:TabBarItem.Content>
+                                                <Container ClipToContainer="True" Id="02222249-8fc6-4f01-ae14-68f9fe961d21">
+                                                    <Container.Children>
+                                                        <i:Header Text="Mega Chat" FontSize="16" FontFamily="Open Sans" Id="5e69fb6c-3ffb-4b61-bdfe-fa9c2fc76997" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                                                    </Container.Children>
+                                                </Container>
+                                            </i:TabBarItem.Content>
+                                        </i:TabBarItem>
+                                        <i:TabBarItem Header="Friends" Id="5d0da2a8-2231-4cf6-9fce-bdffda687793">
+                                            <i:TabBarItem.Icon>
+                                                <Icon CatalogId="iOS 7 Contacts" Id="c5366a58-0955-4089-a112-8244da7ff156" />
+                                            </i:TabBarItem.Icon>
+                                            <i:TabBarItem.Content>
+                                                <Container ClipToContainer="True" Id="e1f6a703-c0e1-4554-a95c-d0d2e7443182" />
+                                            </i:TabBarItem.Content>
+                                        </i:TabBarItem>
+                                        <i:TabBarItem Header="Chat" Id="e3f65379-1e2b-46b9-a932-7ec0cff873e4">
+                                            <i:TabBarItem.Icon>
+                                                <Icon CatalogId="fa-weixin" Id="c275e551-6a46-44fa-a212-ec84a6dc6a76" />
+                                            </i:TabBarItem.Icon>
+                                            <i:TabBarItem.Content>
+                                                <Container ClipToContainer="True" Id="8e0543ae-a419-4167-8ae7-5e6e66b8969d" />
+                                            </i:TabBarItem.Content>
+                                        </i:TabBarItem>
+                                        <i:TabBarItem Header="Options" Id="85ae7177-b4a5-4631-b089-b1409a6429f9">
+                                            <i:TabBarItem.Icon>
+                                                <Icon CatalogId="linea-gear" Id="fa2c8d2d-3c33-4684-972f-9b967efd44f0" />
+                                            </i:TabBarItem.Icon>
+                                            <i:TabBarItem.Content>
+                                                <Container ClipToContainer="True" Id="a060527e-10ec-4120-ab6d-bb19afa6e32d" />
+                                            </i:TabBarItem.Content>
+                                        </i:TabBarItem>
+                                    </i:TabBar.Items>
+                                </i:TabBar>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="02a6fa2d-4577-4443-88ba-734b93c487d8">
+                            <Add.Item>
+                                <i:Header Text="Mega Chat" FontSize="16" FontFamily="Open Sans" Id="b10a2676-4763-4460-a155-e1d3ef2d736c" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="02a6fa2d-4577-4443-88ba-734b93c487d8">
+                            <Add.Item>
+                                <i:ContentList Direction="Vertical" Thickness="0" Id="9a2f1094-2c44-4243-a901-25c208a8e71e" Panel.Bounds="0,44,375{5,2147483647},5*{5,2147483647}">
+                                    <i:ContentList.Template>
+                                        <Template Id="7024f525-5526-46f6-bd97-63019d96dfa8">
+                                            <Template.Content>
+                                                <ListItemContent Color="#FFFFFFFF" Thickness="0" Padding="0" Id="c2fbfdfb-99ae-4d8c-8a37-9db6a0ab6707" Panel.Bounds="0,0,0*,96" Panel.Layout="Stretch">
+                                                    <ListItemContent.Content>
+                                                        <Container ClipToContainer="True" Id="de98e7cf-b629-4d45-8f76-94266b3870e2">
+                                                            <Container.Children>
+                                                                <i:Label RichText="Indigo Studio" Foreground="#FF000000" FontSize="17" FontStyle="Bold" Id="50370327-16a5-496a-81d2-f781409d75aa" Panel.Bounds="73,7,0*,0*" />
+                                                                <Ellipse Thickness="0" Background="#FF0070FF" Id="06d41004-127f-48c4-8b76-ac08be8a1063" Panel.Bounds="54,13,12,12" />
+                                                                <Icon CatalogId="iOS 7 Contacts" Id="e685e161-7545-4926-be85-fd931a5387ba" Panel.Bounds="12,11,30,30" />
+                                                                <Icon Color="#FFCCCCCC" CatalogId="Greater Than" Id="c51f6bd2-51b1-49b9-ab54-a0575bbcf765" Panel.Bounds="352,15,13,13" />
+                                                                <i:Label RichText="Tuesday" Align="Right" Foreground="#FF8E8E8E" Id="96214d59-bbde-419a-9532-5fe1c0edba24" Panel.Bounds="264,11,80,18*" />
+                                                                <i:Label RichText="Subject line of the message" Foreground="#FF000000" Id="96b69a17-7ff7-4f82-ac8c-4fcebe9f2084" Panel.Bounds="53,30,0*,0*" />
+                                                                <i:Label RichText="First line of the message summary." Foreground="#FF8E8E8E" Id="d6dc84de-ee88-4098-8334-74a80024acaa" Panel.Bounds="53,51,0*,0*" />
+                                                                <i:Label RichText="Second line of the message summary." Foreground="#FF8E8E8E" Id="dea82637-35b8-4d87-97eb-491dd728f8e8" Panel.Bounds="53,69,0*,0*" />
+                                                                <Line Thickness="1" Color="#FFE3E3E5" Id="919dcb41-312c-4720-aed1-0400084ae1e9" Panel.Bounds="53,0,322,3">
+                                                                    <Line.StartPoint>
+                                                                        <Point X="42" Id="c90d494d-7cd0-4cde-8f1b-d3b268e87d41" />
+                                                                    </Line.StartPoint>
+                                                                    <Line.Segments>
+                                                                        <Segment Id="42177bb0-c7a8-4f95-b4bc-842b1ebd4b93">
+                                                                            <Segment.EndPoint>
+                                                                                <Point X="310" Id="d0f98b4b-071d-495a-8fbf-3ca521c83c7e" />
+                                                                            </Segment.EndPoint>
+                                                                        </Segment>
+                                                                    </Line.Segments>
+                                                                </Line>
+                                                            </Container.Children>
+                                                        </Container>
+                                                    </ListItemContent.Content>
+                                                </ListItemContent>
+                                            </Template.Content>
+                                        </Template>
+                                    </i:ContentList.Template>
+                                    <i:ContentList.Items>
+                                        <ListItem Id="39e9d031-b665-41e2-9399-91b0ec9dd116">
+                                            <ListItem.Content>
+                                                <SharedPart Id="b4fa29e4-97bc-40f2-898e-341346f96f0f">
+                                                    <SharedPart.Customizations>
+                                                        <Set Property="Icon.CatalogId" Value="linea-message-multiple" Target="e685e161-7545-4926-be85-fd931a5387ba" />
+                                                        <Set Property="Label.RichText" Value="Bulgaria" Target="50370327-16a5-496a-81d2-f781409d75aa" />
+                                                        <Set Property="Label.RichText" Value="Public room" Target="96b69a17-7ff7-4f82-ac8c-4fcebe9f2084" />
+                                                        <Set Property="Label.RichText" Value="Join" Target="96214d59-bbde-419a-9532-5fe1c0edba24" />
+                                                        <Set Property="Label.RichText" Value="Welcome here and have fun :)" Target="d6dc84de-ee88-4098-8334-74a80024acaa" />
+                                                        <Set Property="Label.RichText" Value="... and bring rakyia and shopska salata!" Target="dea82637-35b8-4d87-97eb-491dd728f8e8" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                        <ListItem Id="23031c08-3cf1-43d2-b3e6-a5f0768c496c">
+                                            <ListItem.Content>
+                                                <SharedPart Id="d3e0c8cd-d4b7-48f4-895b-7f0b5fc7658a">
+                                                    <SharedPart.Customizations>
+                                                        <Set Property="Icon.CatalogId" Value="linea-message-multiple" Target="e685e161-7545-4926-be85-fd931a5387ba" />
+                                                        <Set Property="Label.RichText" Value="Football" Target="50370327-16a5-496a-81d2-f781409d75aa" />
+                                                        <Set Property="Label.RichText" Value="Public room" Target="96b69a17-7ff7-4f82-ac8c-4fcebe9f2084" />
+                                                        <Set Property="Label.RichText" Value="Join" Target="96214d59-bbde-419a-9532-5fe1c0edba24" />
+                                                        <Set Property="Label.RichText" Value="Litex is NOT CSKA!" Target="d6dc84de-ee88-4098-8334-74a80024acaa" />
+                                                        <Set Property="Label.RichText" Value="" Target="dea82637-35b8-4d87-97eb-491dd728f8e8" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                        <ListItem Id="ee314bbd-e0f9-4c1c-9357-f76e0e64b9dd">
+                                            <ListItem.Content>
+                                                <SharedPart Id="09fe51a3-75c8-488a-839f-94f246e546dc">
+                                                    <SharedPart.Customizations>
+                                                        <Add Property="Panel.Children" Target="de98e7cf-b629-4d45-8f76-94266b3870e2">
+                                                            <Add.Item>
+                                                                <Icon Color="#FFCCCCCC" CatalogId="fa-angle-right" Id="05e19394-3451-48d4-aeac-71c7fdae4a94" Panel.Bounds="346,15,13,13" />
+                                                            </Add.Item>
+                                                        </Add>
+                                                        <Set Property="Label.RichText" Value="Public room" Target="96b69a17-7ff7-4f82-ac8c-4fcebe9f2084" />
+                                                        <Set Property="Icon.CatalogId" Value="linea-message-multiple" Target="e685e161-7545-4926-be85-fd931a5387ba" />
+                                                        <Set Property="Label.RichText" Value="Lulin 10" Target="50370327-16a5-496a-81d2-f781409d75aa" />
+                                                        <Set Property="Label.RichText" Value="Join" Target="96214d59-bbde-419a-9532-5fe1c0edba24" />
+                                                        <Set Property="Label.RichText" Value="Samo za istinski sofianci!" Target="d6dc84de-ee88-4098-8334-74a80024acaa" />
+                                                        <Set Property="Label.RichText" Value="Drujba ne e Sofia" Target="dea82637-35b8-4d87-97eb-491dd728f8e8" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                        <ListItem Id="e359a003-562c-48a5-8de6-72a2b2f4c41e">
+                                            <ListItem.Content>
+                                                <SharedPart Id="bee08d7e-0428-4cec-ab70-92c800562611">
+                                                    <SharedPart.Customizations>
+                                                        <Set Property="Icon.CatalogId" Value="linea-message-multiple" Target="e685e161-7545-4926-be85-fd931a5387ba" />
+                                                        <Set Property="Label.RichText" Value="Secret Group" Target="50370327-16a5-496a-81d2-f781409d75aa" />
+                                                        <Set Property="Label.RichText" Value="Public room" Target="96b69a17-7ff7-4f82-ac8c-4fcebe9f2084" />
+                                                        <Set Property="Label.RichText" Value="" Target="d6dc84de-ee88-4098-8334-74a80024acaa" />
+                                                        <Set Property="Label.RichText" Value="" Target="dea82637-35b8-4d87-97eb-491dd728f8e8" />
+                                                        <Set Property="Label.RichText" Value="Join" Target="96214d59-bbde-419a-9532-5fe1c0edba24" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                        <ListItem Id="b92c4288-b7be-426a-b37c-7bb6907fe03a">
+                                            <ListItem.Content>
+                                                <SharedPart Id="727f5978-72c0-4564-b42b-1c6bf1ee1389">
+                                                    <SharedPart.Customizations>
+                                                        <Set Property="Icon.CatalogId" Value="linea-message-multiple" Target="e685e161-7545-4926-be85-fd931a5387ba" />
+                                                        <Set Property="Label.RichText" Value="Alcoholics" Target="50370327-16a5-496a-81d2-f781409d75aa" />
+                                                        <Set Property="Label.RichText" Value="Public room" Target="96b69a17-7ff7-4f82-ac8c-4fcebe9f2084" />
+                                                        <Set Property="Label.RichText" Value="Join" Target="96214d59-bbde-419a-9532-5fe1c0edba24" />
+                                                        <Set Property="Label.RichText" Value="Share the drinks :)" Target="d6dc84de-ee88-4098-8334-74a80024acaa" />
+                                                        <Set Property="Label.RichText" Value="... and not only...." Target="dea82637-35b8-4d87-97eb-491dd728f8e8" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                    </i:ContentList.Items>
+                                </i:ContentList>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Disconnected State" ParentScene="da53c17f-c6d9-432c-8219-21b5f15ee299" Created="11/02/2017 16:52:46" Id="870395af-cfed-4737-87aa-cbacca31c750">
+            <Scene.KeyFrames>
+                <KeyFrame Id="539028df-5503-4c91-b6a3-82b6d83f23f3">
+                    <KeyFrame.Operations>
+                        <Add Property="Control.Click" Target="39e9d031-b665-41e2-9399-91b0ec9dd116">
+                            <Add.Item>
+                                <CommandNavigate Screen="/ChatRoom.screen" Created="11/02/2017 16:55:14" Id="d229f226-49b0-4baa-ad60-e0a024dc08b2">
+                                    <CommandNavigate.Transition>
+                                        <NavigateTransition Type="Push" Duration="300" />
+                                    </CommandNavigate.Transition>
+                                </CommandNavigate>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
