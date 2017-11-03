@@ -1,0 +1,119 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                Id="f044ca40-f7dc-49e2-8500-01a2f0a685d6">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="c4e962ad-9ce1-4334-b84a-e5211491929b">
+            <Content.Layers>
+                <Layer Id="94c58d86-2452-4574-8c95-43bf89648f3c" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="36dfa17f-e690-413d-ac47-88f441153ef2" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="e21d9d21-63ca-44ad-a3ea-8042020680ba" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="adbf236a-fc63-4422-8b83-07d198446194" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/03/2017 17:46:11" Id="a7735627-e1be-403c-a062-c02a05a2ce2c">
+            <Scene.KeyFrames>
+                <KeyFrame Id="c9249250-ae52-43dc-9a37-9249d698dd99">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="94c58d86-2452-4574-8c95-43bf89648f3c">
+                            <Add.Item>
+                                <i:TabBar Id="f30bad42-1c32-4a18-bc3a-bd2913c99c40" Panel.Bounds="0,0,375{130,2147483647},647{70,2147483647}">
+                                    <i:TabBar.Items>
+                                        <i:TabBarItem Header="Home" Id="4fa0ecee-ded3-4e36-ae26-f83f29291239">
+                                            <i:TabBarItem.Icon>
+                                                <Icon CatalogId="linea-home" Id="5a2a8f15-66c5-4780-a8d9-76d0cc5d5fe0" />
+                                            </i:TabBarItem.Icon>
+                                            <i:TabBarItem.Content>
+                                                <Container ClipToContainer="True" Id="38e51130-7820-4c77-8e26-0f77e3a530d4">
+                                                    <Container.Children>
+                                                        <i:Header FontSize="16" FontFamily="Open Sans" Id="e0c610d0-bf5c-46e3-b44c-da43e9ba067a" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                                                    </Container.Children>
+                                                </Container>
+                                            </i:TabBarItem.Content>
+                                        </i:TabBarItem>
+                                        <i:TabBarItem Header="Previouse" IsSelected="True" Id="0740146b-c8b3-4d66-bb69-6f7344c9fa7f">
+                                            <i:TabBarItem.Icon>
+                                                <Icon CatalogId="fa-arrow-left" Id="d9a4135f-3069-4583-a9ca-add226cd66ea" />
+                                            </i:TabBarItem.Icon>
+                                            <i:TabBarItem.Content>
+                                                <Container ClipToContainer="True" Id="2fc0d3b4-5df0-40d1-9d6b-7900c3624503" />
+                                            </i:TabBarItem.Content>
+                                        </i:TabBarItem>
+                                        <i:TabBarItem Header="Next" Id="52adb8af-bf5f-411c-b487-1cdd37ebcaf8">
+                                            <i:TabBarItem.Icon>
+                                                <Icon CatalogId="fa-arrow-right" Id="446c5abb-ca70-48d5-84c5-2cfb50c7ca95" />
+                                            </i:TabBarItem.Icon>
+                                            <i:TabBarItem.Content>
+                                                <Container ClipToContainer="True" Id="1aced33b-fa2d-4754-95d8-a87e7a0e5211" />
+                                            </i:TabBarItem.Content>
+                                        </i:TabBarItem>
+                                    </i:TabBar.Items>
+                                </i:TabBar>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="94c58d86-2452-4574-8c95-43bf89648f3c">
+                            <Add.Item>
+                                <Image DevicePixelRatio="0.5" Id="eae4ef93-0361-47a7-ad0e-6eb1e2313ad5" Panel.Bounds="0,0,117{5,2147483647},130{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="94c58d86-2452-4574-8c95-43bf89648f3c">
+                            <Add.Item>
+                                <i:TextArea Text="              Ivan Ivanov" FontSize="16" FontFamily="Open Sans" FontStyle="Bold" Id="4f4bec0a-9e52-4969-a39e-50fbafddcd99" Panel.Bounds="118,0,257{22,2147483647},32{31,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="94c58d86-2452-4574-8c95-43bf89648f3c">
+                            <Add.Item>
+                                <i:TextArea Text="From : Lulin 10&#xA;Active: Now&#xA;Joined : 03-15-2017&#xA;Personal Info : Some info ......" FontFamily="Open Sans" Id="ccf1c13f-42b3-4fc3-8d95-dec64a73f1ca" Panel.Bounds="118,30,254{22,2147483647},100{31,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="94c58d86-2452-4574-8c95-43bf89648f3c">
+                            <Add.Item>
+                                <i:TextField Text="Reacent Posts" Align="Left" FontSize="16" FontFamily="Open Sans" FontStyle="Bold" Id="5a91a638-3cf7-4dcd-ae6d-634291bf09af" Panel.Bounds="0,130,375{22,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="94c58d86-2452-4574-8c95-43bf89648f3c">
+                            <Add.Item>
+                                <i:TextArea Text="To: Petur Petrov                                        Posted: 02-02-2016&#xA;&#xA;You are **** blah blah blah" FontFamily="Open Sans" Id="70af8f30-a7d6-40e2-ba12-99de8cfb4079" Panel.Bounds="3,163,372{22,2147483647},79{31,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="94c58d86-2452-4574-8c95-43bf89648f3c">
+                            <Add.Item>
+                                <i:TextArea Text="To: Ivanka Petrova                                    Posted: 02-12-2016&#xA;&#xA;&#xA;Lulin is The Best...!" FontFamily="Open Sans" Id="141c1aa8-542f-481b-9498-aa4df38bf317" Panel.Bounds="3,245,375{22,2147483647},94{31,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="94c58d86-2452-4574-8c95-43bf89648f3c">
+                            <Add.Item>
+                                <i:TextArea Text="To: Petur Ivanov                                     Posted: 12-04-2015&#xA;&#xA;&#xA;Some inappropriate message !" FontFamily="Open Sans" Id="2f5cdf74-8f3f-456e-80c9-d097d4d80c38" Panel.Bounds="1,345,372{22,2147483647},104{31,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="94c58d86-2452-4574-8c95-43bf89648f3c">
+                            <Add.Item>
+                                <i:TextArea Text="To: Petur Petrov                                    Posted: 12-12-2014&#xA;&#xA;&#xA;Some inappropriate message !&#xA;&#xA;&#xA;" FontFamily="Open Sans" Id="c57d920f-7a32-430f-9c7a-56b057c75ea9" Panel.Bounds="4,455,372{22,2147483647},104{31,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="94c58d86-2452-4574-8c95-43bf89648f3c">
+                            <Add.Item>
+                                <i:SegmentedToggle Id="b7522ffc-ac19-49f7-b02f-9520c058b250" Panel.Bounds="0,569,375{30,2147483647},5*{5,2147483647}">
+                                    <i:SegmentedToggle.Items>
+                                        <i:SegmentedToggleItem Text="BAN" IsSelected="True" Id="d11fe175-49f9-4cb0-a600-2e07f0d824d9" />
+                                        <i:SegmentedToggleItem Text="Mute" Id="af88affc-885a-4612-943d-483dcc7e824f" />
+                                        <i:SegmentedToggleItem Text="Cancle" Id="39111237-42df-4f99-9a29-b82e687532bf" />
+                                    </i:SegmentedToggle.Items>
+                                </i:SegmentedToggle>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
