@@ -1,0 +1,233 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                Id="0087bcaa-3be2-4c33-9737-e3fc81bd4c49">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="725704cf-3b6b-4523-81e2-389b52386d80">
+            <Content.Layers>
+                <Layer Id="83974a3d-f727-44d0-bab9-cf00fc76c995" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="7458f930-4a95-492a-91f7-59555c9cab96" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="c7cacd88-706c-4a1e-ad1d-7c5065666f0f" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="e0c94ff1-342c-4d56-bd53-5a5cb48dae6d" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/03/2017 16:47:46" Id="fbf7a2b4-dbc6-425e-a6ee-1d32619f6661">
+            <Scene.KeyFrames>
+                <KeyFrame Id="d9661a1f-993c-4ae6-8b63-a7c66c7ea65a">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="83974a3d-f727-44d0-bab9-cf00fc76c995">
+                            <Add.Item>
+                                <i:TabBar Id="85b631bb-5e74-4e67-be0d-f57606c5269c" Panel.Bounds="0,0,375{130,2147483647},637{70,2147483647}">
+                                    <i:TabBar.Items>
+                                        <i:TabBarItem Header="Home" IsSelected="True" Id="93f80977-e5d3-4876-9bcb-ed0946158268">
+                                            <i:TabBarItem.Icon>
+                                                <Icon CatalogId="linea-home" Id="d02bf50f-45d4-48c3-9a57-aec8ef12ecc0" />
+                                            </i:TabBarItem.Icon>
+                                            <i:TabBarItem.Content>
+                                                <Container ClipToContainer="True" Id="be449d3d-59a0-48c4-8705-416106b8ac46">
+                                                    <Container.Children>
+                                                        <Image DevicePixelRatio="0.5" Id="283eb9f3-491c-4145-8b3d-fd2aed1180cd" Panel.Bounds="3,84,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Image DevicePixelRatio="0.5" Id="dbdeb01a-9d15-4692-ba7e-f14211ac08b1" Panel.Bounds="3,166,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Image DevicePixelRatio="0.5" Id="e85b64c7-35ad-4276-a009-ba5562d46526" Panel.Bounds="3,248,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Image DevicePixelRatio="0.5" Id="30a9f729-2d99-4fab-bb46-ea01c538ef7d" Panel.Bounds="3,330,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Image DevicePixelRatio="0.5" Id="e9e7ad45-90c1-4ddd-a81b-532ecdf06c17" Panel.Bounds="3,412,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Image DevicePixelRatio="0.5" Id="ed7a695e-f73d-48ad-ac41-808dc724fdb0" Panel.Bounds="3,494,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <i:SearchBar WatermarkText="Search" FontFamily="Open Sans" Id="1f95cffa-6e3c-481f-aff0-25e9b0b5bb31" Panel.Bounds="0,56,375{105,2147483647},5*{5,2147483647}" />
+                                                        <i:Title RichText="View all Profiles" Align="Center" FontSize="24" FontFamily="Open Sans" FontStyle="Normal" Tooltip="View All Profiles" Id="13c55816-af03-4926-a361-8e565254c303" Panel.Bounds="72,3,214,24*" />
+                                                    </Container.Children>
+                                                </Container>
+                                            </i:TabBarItem.Content>
+                                        </i:TabBarItem>
+                                        <i:TabBarItem Header="Back" Id="85e2f1de-c69b-486a-8e86-9e52d522dfa9">
+                                            <i:TabBarItem.Icon>
+                                                <Icon CatalogId="fa-arrow-left" Id="b2dc5c57-83ce-4146-9f67-08d64d44e9a1" />
+                                            </i:TabBarItem.Icon>
+                                            <i:TabBarItem.Content>
+                                                <Container ClipToContainer="True" Id="1f1f54da-45bd-483b-9368-cd10ee53051b" />
+                                            </i:TabBarItem.Content>
+                                        </i:TabBarItem>
+                                        <i:TabBarItem Header="Next" Id="7d03b55a-9426-4502-b997-c6be789704d8">
+                                            <i:TabBarItem.Icon>
+                                                <Icon CatalogId="fa-arrow-right" Id="59cbcf49-9027-49ea-92b1-0d4c65c792c7" />
+                                            </i:TabBarItem.Icon>
+                                            <i:TabBarItem.Content>
+                                                <Container ClipToContainer="True" Id="0cc9a4a0-9e34-47a3-8cf6-c14afd950e6f" />
+                                            </i:TabBarItem.Content>
+                                        </i:TabBarItem>
+                                    </i:TabBar.Items>
+                                </i:TabBar>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="83974a3d-f727-44d0-bab9-cf00fc76c995">
+                            <Add.Item>
+                                <i:Settings Direction="Vertical" Thickness="0" Id="9c72deaa-88ab-499c-8c33-65e3e1f93345" Panel.Bounds="91,84,288{5,2147483647},492{5,2147483647}">
+                                    <i:Settings.Template>
+                                        <Template Id="16f48e7c-ea9e-4355-a164-15de4285aa3c">
+                                            <Template.Content>
+                                                <ListItemContent Thickness="0" Padding="0" Id="afda26fc-da60-4a07-adce-7bb18ec15b09" Panel.Bounds="0,0,0*,44" Panel.Layout="Stretch">
+                                                    <ListItemContent.Content>
+                                                        <Container ClipToContainer="True" Id="3a686243-fa58-40e5-b55d-b749480413d8">
+                                                            <Container.Children>
+                                                                <i:Label RichText="Item 1" Foreground="#FF000000" FontSize="16" FontStyle="Normal" Id="b2651b80-3f1e-4513-9fad-9473b7afeae3" Panel.Bounds="15,12,0*,0*" />
+                                                                <Line Thickness="1" Color="#FFE3E3E5" Id="0dcca1d8-0eb4-4704-b0f1-25b8bdda69de" Panel.Bounds="15,0,360,3">
+                                                                    <Line.StartPoint>
+                                                                        <Point X="5" Id="8f89ce96-c678-4f1d-ada2-5a6cb533be1b" />
+                                                                    </Line.StartPoint>
+                                                                    <Line.Segments>
+                                                                        <Segment Id="3d1c84f1-db8a-4b15-b892-5f25adaf79df">
+                                                                            <Segment.EndPoint>
+                                                                                <Point X="365" Id="d0fe523a-ea02-4d96-973c-862133a29309" />
+                                                                            </Segment.EndPoint>
+                                                                        </Segment>
+                                                                    </Line.Segments>
+                                                                </Line>
+                                                            </Container.Children>
+                                                        </Container>
+                                                    </ListItemContent.Content>
+                                                </ListItemContent>
+                                            </Template.Content>
+                                        </Template>
+                                    </i:Settings.Template>
+                                    <i:Settings.Items>
+                                        <ListItem Id="c4c63be4-65a2-4387-a777-865f518473d5">
+                                            <ListItem.Content>
+                                                <SharedPart Id="800fb802-bd03-4642-bf27-c3386527ba15">
+                                                    <SharedPart.Customizations>
+                                                        <Set Property="Panel.Bounds" Value="15,10,0*,0*" Target="b2651b80-3f1e-4513-9fad-9473b7afeae3" />
+                                                        <Set Property="Panel.Bounds" Value="0,0,0*,42" Target="afda26fc-da60-4a07-adce-7bb18ec15b09" />
+                                                        <Resize To="0,82" Target="afda26fc-da60-4a07-adce-7bb18ec15b09" />
+                                                        <Set Property="Label.RichText" Value="Pesho Goshov Ivanov" Target="b2651b80-3f1e-4513-9fad-9473b7afeae3" />
+                                                        <Remove Target="0dcca1d8-0eb4-4704-b0f1-25b8bdda69de" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                        <ListItem Id="386be7e2-ce30-4c98-8380-9c1951781ef7">
+                                            <ListItem.Content>
+                                                <SharedPart Id="bf05069f-32af-47bf-a27c-c97fa98a0f7c">
+                                                    <SharedPart.Customizations>
+                                                        <Set Property="Label.RichText" Value="Ivan Ivanov Petrov" Target="b2651b80-3f1e-4513-9fad-9473b7afeae3" />
+                                                        <Resize To="0,82" Target="afda26fc-da60-4a07-adce-7bb18ec15b09" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                        <ListItem Id="a4ed939c-4860-47dc-b6a2-11a8f599950d">
+                                            <ListItem.Content>
+                                                <SharedPart Id="eff5bd11-ab91-4479-b549-153fb9900a84">
+                                                    <SharedPart.Customizations>
+                                                        <Set Property="Label.RichText" Value="Stamat Smatiev - Stamy" Target="b2651b80-3f1e-4513-9fad-9473b7afeae3" />
+                                                        <Resize To="0,82" Target="afda26fc-da60-4a07-adce-7bb18ec15b09" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                        <ListItem Id="e16c3e4f-a729-41bd-85b6-a65fee28bf0e">
+                                            <ListItem.Content>
+                                                <SharedPart Id="3b5e4495-e741-41c3-9353-2e25e4be6a90">
+                                                    <SharedPart.Customizations>
+                                                        <Resize To="0,82" Target="afda26fc-da60-4a07-adce-7bb18ec15b09" />
+                                                        <Set Property="Label.RichText" Value="Georgy Ivanov Ivanov" Target="b2651b80-3f1e-4513-9fad-9473b7afeae3" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                        <ListItem Id="701e45af-4fbf-4fab-94a1-41935320953f">
+                                            <ListItem.Content>
+                                                <SharedPart Id="3cc40576-eba0-4784-9279-530b9443076e">
+                                                    <SharedPart.Customizations>
+                                                        <Resize To="0,82" Target="afda26fc-da60-4a07-adce-7bb18ec15b09" />
+                                                        <Set Property="Label.RichText" Value="Petya Teodorova Ivanova" Target="b2651b80-3f1e-4513-9fad-9473b7afeae3" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                        <ListItem Id="4577339c-0ae8-40a2-9c3b-78997fb6405c">
+                                            <ListItem.Content>
+                                                <SharedPart Id="c3eec5ec-4e9c-4b9e-a58c-c7f8f041cc4c">
+                                                    <SharedPart.Customizations>
+                                                        <Resize To="0,79" Target="afda26fc-da60-4a07-adce-7bb18ec15b09" />
+                                                        <Set Property="Label.RichText" Value="Stiliqna Svilenova Kirilova" Target="b2651b80-3f1e-4513-9fad-9473b7afeae3" />
+                                                    </SharedPart.Customizations>
+                                                </SharedPart>
+                                            </ListItem.Content>
+                                        </ListItem>
+                                    </i:Settings.Items>
+                                </i:Settings>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="83974a3d-f727-44d0-bab9-cf00fc76c995">
+                            <Add.Item>
+                                <i:ActionButton ButtonType="Edit" Text="Invite" FontFamily="Open Sans" Id="6e7736d3-3404-4e36-befb-5eb7f25fce18" Panel.Bounds="300,139,50{20,2147483647},30{12,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="83974a3d-f727-44d0-bab9-cf00fc76c995">
+                            <Add.Item>
+                                <i:ActionButton ButtonType="Edit" Text="Invite" FontFamily="Open Sans" Id="9faa8cb5-dcf6-499c-81b1-0de954602cc6" Panel.Bounds="296,300,50{20,2147483647},30{12,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="83974a3d-f727-44d0-bab9-cf00fc76c995">
+                            <Add.Item>
+                                <i:ActionButton ButtonType="Edit" Text="Invite" FontFamily="Open Sans" Id="b944e483-c3e8-4f52-b12e-1914a58661a5" Panel.Bounds="300,214,50{20,2147483647},30{12,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="83974a3d-f727-44d0-bab9-cf00fc76c995">
+                            <Add.Item>
+                                <i:ActionButton ButtonType="Edit" Text="Invite" FontFamily="Open Sans" Id="3ba81a8c-209c-4422-8e42-3bc90f0f4546" Panel.Bounds="296,389,50{20,2147483647},30{12,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="83974a3d-f727-44d0-bab9-cf00fc76c995">
+                            <Add.Item>
+                                <i:ActionButton ButtonType="Edit" Text="Invite" FontFamily="Open Sans" Id="09ae75f2-7a46-4947-88e3-5f0354c33dab" Panel.Bounds="296,553,50{20,2147483647},30{12,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="83974a3d-f727-44d0-bab9-cf00fc76c995">
+                            <Add.Item>
+                                <i:ActionButton ButtonType="Edit" Text="Invite" FontFamily="Open Sans" Id="4c2b58a6-b9a0-45c5-af9e-5054e98087c2" Panel.Bounds="296,467,50{20,2147483647},30{12,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="83974a3d-f727-44d0-bab9-cf00fc76c995">
+                            <Add.Item>
+                                <i:ActionButton ButtonType="Edit" Text="View" FontFamily="Open Sans" Id="7bf0bce0-03ae-4058-a044-2158f36673af" Panel.Bounds="245,214,50{20,2147483647},30{12,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="83974a3d-f727-44d0-bab9-cf00fc76c995">
+                            <Add.Item>
+                                <i:ActionButton ButtonType="Edit" Text="View" FontFamily="Open Sans" Id="07d688e3-971b-4e84-94e7-6a5fadd433d0" Panel.Bounds="245,467,50{20,2147483647},30{12,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="83974a3d-f727-44d0-bab9-cf00fc76c995">
+                            <Add.Item>
+                                <i:ActionButton ButtonType="Edit" Text="View" FontFamily="Open Sans" Id="dfc8d0bc-18b9-454c-978e-e4814fa31f87" Panel.Bounds="245,139,50{20,2147483647},30{12,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="83974a3d-f727-44d0-bab9-cf00fc76c995">
+                            <Add.Item>
+                                <i:ActionButton ButtonType="Edit" Text="View" FontFamily="Open Sans" Id="8ae0d5e5-8fcd-4fda-a87c-4577e13f5b4d" Panel.Bounds="245,389,50{20,2147483647},30{12,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="83974a3d-f727-44d0-bab9-cf00fc76c995">
+                            <Add.Item>
+                                <i:ActionButton ButtonType="Edit" Text="View" FontFamily="Open Sans" Id="0f51d2da-0c40-4eab-bce4-3508aca88700" Panel.Bounds="245,301,50{20,2147483647},30{12,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="83974a3d-f727-44d0-bab9-cf00fc76c995">
+                            <Add.Item>
+                                <i:ActionButton ButtonType="Edit" Text="View" FontFamily="Open Sans" Id="22bdd2f7-9f05-4b42-8f1c-d2f904b4cc0f" Panel.Bounds="244,553,50{20,2147483647},30{12,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
