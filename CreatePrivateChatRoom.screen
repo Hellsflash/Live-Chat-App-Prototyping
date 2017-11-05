@@ -1,0 +1,62 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                   Id="05b07f12-0940-438d-9512-774c44dd88cd">
+    <Page.Content>
+        <Content Width="375" Height="647" Id="fae679f5-59d9-44fe-a374-b54df68fc774">
+            <Content.Layers>
+                <Layer Id="479431ab-402a-43f2-9cff-9c8619c52446" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="1e49f933-be13-4c72-a56a-72f184b23a1f" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="375,647" Id="eed54371-a4a5-4bfd-96f2-eb24e92c07bf" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="fa89948c-6b22-48e4-a5b8-983ed4884e52" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/05/2017 18:49:03" Id="6f66cf44-3bf9-4708-918d-58a90dec8fe1">
+            <Scene.KeyFrames>
+                <KeyFrame Id="8b492245-f680-42d8-a6a0-2e406b5e392b">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="479431ab-402a-43f2-9cff-9c8619c52446">
+                            <Add.Item>
+                                <i:Header Text="Create private chat room" FontSize="16" FontFamily="Open Sans" Id="80e9dc87-1788-4692-8ee4-be6ce8dd4a04" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="479431ab-402a-43f2-9cff-9c8619c52446">
+                            <Add.Item>
+                                <Label RichText="Name: " FontSize="14" Id="7e7c8884-d7cc-418c-bf01-b8de4a4caf68" Panel.Bounds="10,184,44*{5,2147483647},22{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="479431ab-402a-43f2-9cff-9c8619c52446">
+                            <Add.Item>
+                                <TextBox Id="f20773f0-372a-43bc-be90-616bd51aba32" Panel.Bounds="119,182,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="479431ab-402a-43f2-9cff-9c8619c52446">
+                            <Add.Item>
+                                <Label RichText="Password: " Id="d63049c7-9d01-4e31-bea5-9fd94ca1f46c" Panel.Bounds="10,263,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="479431ab-402a-43f2-9cff-9c8619c52446">
+                            <Add.Item>
+                                <PasswordBox Id="3cc5dd29-040b-4f51-a829-7b62b5400593" Panel.Bounds="119,260,120{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="479431ab-402a-43f2-9cff-9c8619c52446">
+                            <Add.Item>
+                                <Button Text="Create" Id="62f7ff26-3ef7-40de-a1ab-fd545b3f8abb" Panel.Bounds="135,412,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
