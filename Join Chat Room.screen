@@ -1,14 +1,15 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                   Id="a2bafb30-fc5c-44b7-aeec-0baeb2202825">
+                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                Id="a2bafb30-fc5c-44b7-aeec-0baeb2202825">
     <Page.Content>
-        <Content Width="800" Height="600" Id="fcd7f2d1-24a8-41c1-b7a5-0be5923fcbe5">
+        <Content Width="375" Height="647" Id="fcd7f2d1-24a8-41c1-b7a5-0be5923fcbe5">
             <Content.Layers>
                 <Layer Id="5c6c4746-06bb-40f7-b34b-309bf94eb80a" Panel.Layout="Stretch" />
                 <AnnotationsLayer Id="7c956d99-16ec-4c21-80d9-38a6b833a42a" Panel.Layout="Stretch" />
             </Content.Layers>
             <Content.Viewbox>
-                <Viewbox Size="800,600" Id="e8042d76-942c-402e-989c-ae4df55065d1" />
+                <Viewbox Size="375,647" Id="e8042d76-942c-402e-989c-ae4df55065d1" />
             </Content.Viewbox>
             <Content.GuidesInfo>
                 <GuidesInfo Id="951b13b8-f8e9-47a2-9b4b-210883fb28b7" />
@@ -16,7 +17,7 @@
         </Content>
     </Page.Content>
     <Page.Device>
-        <DeviceInfo Id="Browser" Orientation="None" />
+        <DeviceInfo Id="iPhone6" Orientation="Portrait" />
     </Page.Device>
     <Page.Scenes>
         <Scene Title="Start" Created="11/02/2017 15:50:47" Id="2f5c6aca-b1d7-4c48-8793-1de0a8307a55">
@@ -25,115 +26,42 @@
                     <KeyFrame.Operations>
                         <Add Property="Panel.Children" Target="5c6c4746-06bb-40f7-b34b-309bf94eb80a">
                             <Add.Item>
-                                <Title RichText="Join Chat Room" FontFamily="Open Sans" Id="08fb38bb-0173-49b0-ac4d-8211190f483e" Panel.Bounds="9,5,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5c6c4746-06bb-40f7-b34b-309bf94eb80a">
-                            <Add.Item>
-                                <ContainerBox Id="77fecbc9-22fd-4e6c-961e-beb4cb2b8028" Panel.Bounds="12,91,321{5,2147483647},418{5,2147483647}">
-                                    <ContainerBox.Content>
-                                        <Container ClipToContainer="True" Id="935f2d3a-e347-4ead-8f41-02ab9c777e12" />
-                                    </ContainerBox.Content>
-                                </ContainerBox>
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5c6c4746-06bb-40f7-b34b-309bf94eb80a">
-                            <Add.Item>
-                                <Title RichText="&lt;Run FontSize=&quot;24&quot; &gt;Available public chat rooms&lt;/Run&gt;" FontFamily="Open Sans" Id="daa10713-3e85-455e-8828-6f1650c11592" Panel.Bounds="15,134,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5c6c4746-06bb-40f7-b34b-309bf94eb80a">
-                            <Add.Item>
-                                <TextBox Text="First chat room" FontFamily="Open Sans" Id="20fa57ee-5b74-449b-a104-ab84854cf297" Panel.Bounds="15,191,120{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5c6c4746-06bb-40f7-b34b-309bf94eb80a">
-                            <Add.Item>
-                                <TextBox Text="Second chat room" FontFamily="Open Sans" Id="9f0e3410-7d43-4c8e-ac68-f8e8aa7eaf4d" Panel.Bounds="15,247,120{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5c6c4746-06bb-40f7-b34b-309bf94eb80a">
-                            <Add.Item>
-                                <TextBox Text="Third chat room" FontFamily="Open Sans" Id="d35e5927-e479-4daa-9145-036c68194679" Panel.Bounds="15,300,120{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5c6c4746-06bb-40f7-b34b-309bf94eb80a">
-                            <Add.Item>
-                                <Button Text="Join" FontFamily="Open Sans" Id="ade3161c-066b-4143-b0eb-216a6eed0f6c" Panel.Bounds="175,191,67{5,2147483647},24{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5c6c4746-06bb-40f7-b34b-309bf94eb80a">
-                            <Add.Item>
-                                <Button Text="Join" FontFamily="Open Sans" Id="caafbb18-2950-40e8-b7d7-1f1223a7c52b" Panel.Bounds="175,247,67{5,2147483647},24{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5c6c4746-06bb-40f7-b34b-309bf94eb80a">
-                            <Add.Item>
-                                <Button Text="Join" FontFamily="Open Sans" Id="23808fe7-fa6d-43ac-94db-75d53d8d5e06" Panel.Bounds="175,191,67{5,2147483647},24{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5c6c4746-06bb-40f7-b34b-309bf94eb80a">
-                            <Add.Item>
-                                <Button Text="Button" FontFamily="Open Sans" Id="cd9a645d-18f0-4773-a4d0-aff921a2351f" Panel.Bounds="175,303,67{5,2147483647},24{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5c6c4746-06bb-40f7-b34b-309bf94eb80a">
-                            <Add.Item>
-                                <ContainerBox Id="8583f014-1567-4801-b0c1-439160f3a42c" Panel.Bounds="347,91,326{5,2147483647},418{5,2147483647}">
-                                    <ContainerBox.Content>
-                                        <Container ClipToContainer="True" Id="35a7b575-70e4-4c80-84ba-d0e29093912c" />
-                                    </ContainerBox.Content>
-                                </ContainerBox>
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5c6c4746-06bb-40f7-b34b-309bf94eb80a">
-                            <Add.Item>
-                                <Title RichText="Available private chat rooms" FontSize="24" FontFamily="Open Sans" Id="7d7d40b0-79a1-4c8d-a63a-7dccbd98185c" Panel.Bounds="347,134,5*{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5c6c4746-06bb-40f7-b34b-309bf94eb80a">
-                            <Add.Item>
-                                <TextBox Text="ChatRoom1" FontFamily="Open Sans" Id="710c6fbc-0434-4fe9-adc5-a4fe4befb41c" Panel.Bounds="351,191,120{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5c6c4746-06bb-40f7-b34b-309bf94eb80a">
-                            <Add.Item>
-                                <PasswordBox WatermarkText="enter password" FontFamily="Open Sans" Id="9b6aa8d3-6bd5-44fd-b404-e31afafaa148" Panel.Bounds="476,191,120{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5c6c4746-06bb-40f7-b34b-309bf94eb80a">
-                            <Add.Item>
-                                <Button Text="Join" FontFamily="Open Sans" Id="f4d38735-d8f0-48cd-a503-c593c2262e64" Panel.Bounds="602,191,67{5,2147483647},24{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5c6c4746-06bb-40f7-b34b-309bf94eb80a">
-                            <Add.Item>
-                                <TextBox Text="ChatRoom2" FontFamily="Open Sans" Id="67d272d6-7f70-4cf0-bdf4-aefbf8b54cce" Panel.Bounds="351,239,120{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5c6c4746-06bb-40f7-b34b-309bf94eb80a">
-                            <Add.Item>
-                                <PasswordBox WatermarkText="enter password" FontFamily="Open Sans" Id="66367132-d6ae-45c1-bde6-88d83c891577" Panel.Bounds="476,239,120{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5c6c4746-06bb-40f7-b34b-309bf94eb80a">
-                            <Add.Item>
-                                <Button Text="Join" FontFamily="Open Sans" Id="ff4828fb-d1a2-478a-b1ac-82936c10cac4" Panel.Bounds="602,239,67{5,2147483647},24{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5c6c4746-06bb-40f7-b34b-309bf94eb80a">
-                            <Add.Item>
-                                <TextBox Text="ChatRoom3" FontFamily="Open Sans" Id="1099868a-d084-4842-ae0c-7573a826ef0b" Panel.Bounds="351,287,120{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5c6c4746-06bb-40f7-b34b-309bf94eb80a">
-                            <Add.Item>
-                                <PasswordBox WatermarkText="enter password" FontFamily="Open Sans" Id="0d273acd-36e0-4adf-9624-7741146863b8" Panel.Bounds="476,287,120{5,2147483647},5*{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="5c6c4746-06bb-40f7-b34b-309bf94eb80a">
-                            <Add.Item>
-                                <Button Text="Join" FontFamily="Open Sans" Id="d2828e84-71ae-4466-88de-ff2e885a4e42" Panel.Bounds="600,288,71{5,2147483647},24{5,2147483647}" />
+                                <i:TabBar Id="d6ec4dbe-3a42-4c5d-b518-48309cc8de88" Panel.Bounds="0,0,375{130,2147483647},647{70,2147483647}">
+                                    <i:TabBar.Items>
+                                        <i:TabBarItem Header="Back" IsSelected="True" Id="a8fdeff4-5041-4f33-b5dc-83e78b016f31">
+                                            <i:TabBarItem.Icon>
+                                                <Icon CatalogId="Back" Id="4db1b395-e9b4-4ca0-9d4b-abfd29ebf608" />
+                                            </i:TabBarItem.Icon>
+                                            <i:TabBarItem.Content>
+                                                <Container ClipToContainer="True" Id="3853c9ec-2326-48d5-9e5e-f30497606f9c">
+                                                    <Container.Children>
+                                                        <ContainerBox Id="77fecbc9-22fd-4e6c-961e-beb4cb2b8028" Panel.Bounds="25,72,321{5,2147483647},499{5,2147483647}">
+                                                            <ContainerBox.Content>
+                                                                <Container ClipToContainer="True" Id="935f2d3a-e347-4ead-8f41-02ab9c777e12" />
+                                                            </ContainerBox.Content>
+                                                        </ContainerBox>
+                                                        <Title RichText="&lt;Run FontSize=&quot;24&quot; &gt;Available public chat rooms&lt;/Run&gt;" FontFamily="Open Sans" Id="daa10713-3e85-455e-8828-6f1650c11592" Panel.Bounds="29,101,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <TextBox Text="First chat room" FontFamily="Open Sans" Id="20fa57ee-5b74-449b-a104-ab84854cf297" Panel.Bounds="43,174,120{5,2147483647},5*{5,2147483647}" />
+                                                        <TextBox Text="Second chat room" FontFamily="Open Sans" Id="9f0e3410-7d43-4c8e-ac68-f8e8aa7eaf4d" Panel.Bounds="43,225,120{5,2147483647},5*{5,2147483647}" />
+                                                        <TextBox Text="Third chat room" FontFamily="Open Sans" Id="d35e5927-e479-4daa-9145-036c68194679" Panel.Bounds="43,273,120{5,2147483647},5*{5,2147483647}" />
+                                                        <Button Text="Join" FontFamily="Open Sans" Id="ade3161c-066b-4143-b0eb-216a6eed0f6c" Panel.Bounds="196,225,67{5,2147483647},24{5,2147483647}" />
+                                                        <Button Text="Join" FontFamily="Open Sans" Id="caafbb18-2950-40e8-b7d7-1f1223a7c52b" Panel.Bounds="196,273,67{5,2147483647},24{5,2147483647}" />
+                                                        <Button Text="Join" FontFamily="Open Sans" Id="23808fe7-fa6d-43ac-94db-75d53d8d5e06" Panel.Bounds="196,174,67{5,2147483647},24{5,2147483647}" />
+                                                        <i:Header Text="Join Chat Room" FontSize="16" FontFamily="Open Sans" Id="bbda1dfa-2b45-4e01-b2cc-4d4ea2fca307" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                                                    </Container.Children>
+                                                </Container>
+                                            </i:TabBarItem.Content>
+                                        </i:TabBarItem>
+                                        <i:TabBarItem Header="Home" Id="4143ad68-5311-4111-a4c7-eda40a48fb9a">
+                                            <i:TabBarItem.Icon>
+                                                <Icon CatalogId="fa-home" Id="0f960e3e-ae3d-41a1-bdb1-e02a36ced8ee" />
+                                            </i:TabBarItem.Icon>
+                                            <i:TabBarItem.Content>
+                                                <Container ClipToContainer="True" Id="d289b95b-8f5e-4268-a61f-600f488d7393" />
+                                            </i:TabBarItem.Content>
+                                        </i:TabBarItem>
+                                    </i:TabBar.Items>
+                                </i:TabBar>
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
