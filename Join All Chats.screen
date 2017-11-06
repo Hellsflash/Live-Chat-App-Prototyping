@@ -76,6 +76,15 @@
                                                                     <ListItem.Content>
                                                                         <SharedPart Id="de951dfa-0f1a-4a69-a140-d23ba1a462d7">
                                                                             <SharedPart.Customizations>
+                                                                                <Add Property="Control.Click" Target="a4d4cf7d-4efa-48d9-af09-9de853773275">
+                                                                                    <Add.Item>
+                                                                                        <CommandNavigate Screen="/ChatRoom.screen" Created="11/06/2017 17:08:28" Id="665c43e4-97ab-4416-9142-b91330b58d85">
+                                                                                            <CommandNavigate.Transition>
+                                                                                                <NavigateTransition Type="Push" Duration="300" />
+                                                                                            </CommandNavigate.Transition>
+                                                                                        </CommandNavigate>
+                                                                                    </Add.Item>
+                                                                                </Add>
                                                                                 <Set Property="Label.RichText" Value="Bulgaria" Target="cc6f3eba-ec50-4afa-ad88-dcc223552995" />
                                                                                 <Set Property="Icon.CatalogId" Value="linea-message-multiple" Target="aa3b1a8d-16ed-4f61-97db-bd0039b0e06f" />
                                                                                 <Set Property="Label.RichText" Value="Join" Target="a4d4cf7d-4efa-48d9-af09-9de853773275" />

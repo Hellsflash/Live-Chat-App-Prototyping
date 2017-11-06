@@ -1,7 +1,7 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
-                                                                                   Id="c3dde851-8c2f-41db-b0a3-30d37098059e">
+                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                Id="c3dde851-8c2f-41db-b0a3-30d37098059e">
     <Page.Content>
         <Content Width="375" Height="647" Id="233955b5-8215-46bc-89b3-e2cbb69b033a">
             <Content.Layers>
@@ -115,6 +115,15 @@
                                             <ListItem.Content>
                                                 <SharedPart Id="b4fa29e4-97bc-40f2-898e-341346f96f0f">
                                                     <SharedPart.Customizations>
+                                                        <Add Property="Control.Click" Target="96214d59-bbde-419a-9532-5fe1c0edba24">
+                                                            <Add.Item>
+                                                                <CommandNavigate Screen="/ChatRoom.screen" Created="11/06/2017 17:14:01" Id="4ba03b0c-117e-49c4-827a-23446270310c">
+                                                                    <CommandNavigate.Transition>
+                                                                        <NavigateTransition Type="Push" Duration="300" />
+                                                                    </CommandNavigate.Transition>
+                                                                </CommandNavigate>
+                                                            </Add.Item>
+                                                        </Add>
                                                         <Set Property="Icon.CatalogId" Value="linea-message-multiple" Target="e685e161-7545-4926-be85-fd931a5387ba" />
                                                         <Set Property="Label.RichText" Value="Bulgaria" Target="50370327-16a5-496a-81d2-f781409d75aa" />
                                                         <Set Property="Label.RichText" Value="Public room" Target="96b69a17-7ff7-4f82-ac8c-4fcebe9f2084" />

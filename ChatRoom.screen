@@ -1,7 +1,7 @@
-﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.0.72"?>
 <Page xmlns="http://prototypes.infragistics.com/"
-                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
-                                                                                   Id="42359136-d0aa-4119-8f5a-7d6b56d958ac">
+                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                Id="42359136-d0aa-4119-8f5a-7d6b56d958ac">
     <Page.Content>
         <Content Width="375" Height="647" Id="0d4714d5-5bef-4354-b378-e84a7d436760">
             <Content.Layers>
@@ -26,47 +26,219 @@
                     <KeyFrame.Operations>
                         <Add Property="Panel.Children" Target="497d44ac-301c-4735-8c03-cabbcc8aeb9f">
                             <Add.Item>
-                                <i:TabBar Id="50cfc97b-7ef6-443b-a23d-d47311e57193" Panel.Bounds="0,0,375{130,2147483647},647{70,2147483647}">
+                                <i:TabBar Id="e30caeea-f898-4830-bc73-b393c750b782" Panel.Bounds="0,0,375{130,2147483647},647{70,2147483647}">
                                     <i:TabBar.Items>
-                                        <i:TabBarItem Header="Leave" IsSelected="True" Id="5cbb6e62-d868-46f6-ac7d-37ae1ed1c0eb">
+                                        <i:TabBarItem Header="Leave" Id="21c4fd3a-4dd4-434f-9f78-8b0cf01f2930">
                                             <i:TabBarItem.Icon>
-                                                <Icon CatalogId="Back" Id="0e69dc9d-24aa-4131-8f13-dc7e4499d54a" />
+                                                <Icon CatalogId="Back" Id="3724c69f-b3bf-44e0-b97f-7afcc343a581" />
                                             </i:TabBarItem.Icon>
                                             <i:TabBarItem.Content>
-                                                <Container ClipToContainer="True" Id="09fd50dc-69a6-4177-88b1-61016728bf7c">
+                                                <Container ClipToContainer="True" Id="535774f5-b7ca-44b8-a9f4-9d451c14d2e3">
                                                     <Container.Children>
-                                                        <i:Header Text="Bulgaria" FontSize="16" FontFamily="Open Sans" Id="1f76504a-d090-48b8-8a8c-904cd7da8bc9" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                                                        <i:Header Text="Bulgaria" FontSize="16" FontFamily="Open Sans" Id="30f470ec-626d-49b0-b3b9-51b9f1e573cf" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                                                    </Container.Children>
+                                                </Container>
+                                            </i:TabBarItem.Content>
+                                        </i:TabBarItem>
+                                        <i:TabBarItem Header="Message" IsSelected="True" Id="ee2f6c88-8ddc-46e3-9130-b1d1250fb108">
+                                            <i:TabBarItem.Icon>
+                                                <Icon CatalogId="Message" Id="00fa5a0b-de03-4d32-836c-70d8ddfdfa16" />
+                                            </i:TabBarItem.Icon>
+                                            <i:TabBarItem.Content>
+                                                <Container ClipToContainer="True" Id="c18bd0bb-74d0-4267-8d3d-899d528b649b">
+                                                    <Container.Children>
+                                                        <i:Header Text=" Bulgaria                                   " FontSize="16" FontFamily="Open Sans" Id="815d1dd1-02d8-49a3-bbf2-647d279e7afd" Panel.Bounds="-15,7,375{5,2147483647},45{20,2147483647}" />
+                                                        <i:SearchBar WatermarkText="Search" FontFamily="Open Sans" Id="abfba6fb-9f51-452f-bce9-daef4fd20ca8" Panel.Bounds="216,8,150{105,2147483647},5*{5,2147483647}" />
+                                                        <i:Settings Direction="Vertical" Thickness="0" Id="0035f2cf-849a-40e6-9218-915ee9983cb4" Panel.Bounds="211,48,159{5,2147483647},409{5,2147483647}">
+                                                            <i:Settings.Template>
+                                                                <Template Id="4dada6a8-7c17-4231-acca-cbb45801e9f9">
+                                                                    <Template.Content>
+                                                                        <ListItemContent Thickness="0" Padding="0" Id="b8b6c6db-78a4-4ab5-81f0-a63f703f712e" Panel.Bounds="0,0,0*,44" Panel.Layout="Stretch">
+                                                                            <ListItemContent.Content>
+                                                                                <Container ClipToContainer="True" Id="68006bb7-46df-4238-8317-0c0af27fb816">
+                                                                                    <Container.Children>
+                                                                                        <i:Label RichText="Item 1" Foreground="#FF000000" FontSize="16" FontStyle="Normal" Id="51afaaeb-3a31-42bd-99df-f8905656e4a7" Panel.Bounds="15,12,0*,0*" />
+                                                                                        <Line Thickness="1" Color="#FFE3E3E5" Id="03a13f62-fece-4297-912c-cf7d7b4dcf1e" Panel.Bounds="15,0,360,3">
+                                                                                            <Line.StartPoint>
+                                                                                                <Point X="5" Id="d475c2f4-4f20-434e-aea9-d9a816e0998e" />
+                                                                                            </Line.StartPoint>
+                                                                                            <Line.Segments>
+                                                                                                <Segment Id="e5e05ec2-63db-4874-9c8c-dcec3b56ca5e">
+                                                                                                    <Segment.EndPoint>
+                                                                                                        <Point X="365" Id="483e439d-4ec9-4e9b-9d26-dff9414a2445" />
+                                                                                                    </Segment.EndPoint>
+                                                                                                </Segment>
+                                                                                            </Line.Segments>
+                                                                                        </Line>
+                                                                                    </Container.Children>
+                                                                                </Container>
+                                                                            </ListItemContent.Content>
+                                                                        </ListItemContent>
+                                                                    </Template.Content>
+                                                                </Template>
+                                                            </i:Settings.Template>
+                                                            <i:Settings.Items>
+                                                                <ListItem Id="5c9c060e-eb85-4cf6-bf53-b31821d8a46b">
+                                                                    <ListItem.Content>
+                                                                        <SharedPart Id="8d46c670-b3c8-42b9-83fd-49f509643d0b">
+                                                                            <SharedPart.Customizations>
+                                                                                <Set Property="Label.RichText" Value="diivPetel&#xD;&#xA;" Target="51afaaeb-3a31-42bd-99df-f8905656e4a7" />
+                                                                                <Remove Target="03a13f62-fece-4297-912c-cf7d7b4dcf1e" />
+                                                                            </SharedPart.Customizations>
+                                                                        </SharedPart>
+                                                                    </ListItem.Content>
+                                                                </ListItem>
+                                                                <ListItem Id="1906522f-da29-48b8-bed6-ceea89312592">
+                                                                    <ListItem.Content>
+                                                                        <SharedPart Id="dbcdab93-603e-4e4d-abef-a5e0a94b795e">
+                                                                            <SharedPart.Customizations>
+                                                                                <Set Property="Label.RichText" Value="Sofi96&#xD;&#xA;" Target="51afaaeb-3a31-42bd-99df-f8905656e4a7" />
+                                                                            </SharedPart.Customizations>
+                                                                        </SharedPart>
+                                                                    </ListItem.Content>
+                                                                </ListItem>
+                                                                <ListItem Id="50152d67-a361-436d-a8f9-7fe3f0abfb13">
+                                                                    <ListItem.Content>
+                                                                        <SharedPart Id="f34aa349-ab1d-4cad-9037-0fb90af0410e">
+                                                                            <SharedPart.Customizations>
+                                                                                <Set Property="Label.RichText" Value="Pesho_manqka&#xD;&#xA;" Target="51afaaeb-3a31-42bd-99df-f8905656e4a7" />
+                                                                            </SharedPart.Customizations>
+                                                                        </SharedPart>
+                                                                    </ListItem.Content>
+                                                                </ListItem>
+                                                                <ListItem Id="03037af2-a44f-407b-9e8c-0ed72494615d">
+                                                                    <ListItem.Content>
+                                                                        <SharedPart Id="ba2783f2-e0f4-49c5-a8a6-40bfa8c5a52b">
+                                                                            <SharedPart.Customizations>
+                                                                                <Set Property="Label.RichText" Value="HanzoMain&#xD;&#xA;" Target="51afaaeb-3a31-42bd-99df-f8905656e4a7" />
+                                                                            </SharedPart.Customizations>
+                                                                        </SharedPart>
+                                                                    </ListItem.Content>
+                                                                </ListItem>
+                                                                <ListItem Id="b4e144b2-63fa-451e-8cdf-9b94b6600c55">
+                                                                    <ListItem.Content>
+                                                                        <SharedPart Id="33a96f61-f29d-416b-976e-d32de4b1d994">
+                                                                            <SharedPart.Customizations>
+                                                                                <Set Property="Label.RichText" Value="Gonzo_94&#xD;&#xA;" Target="51afaaeb-3a31-42bd-99df-f8905656e4a7" />
+                                                                            </SharedPart.Customizations>
+                                                                        </SharedPart>
+                                                                    </ListItem.Content>
+                                                                </ListItem>
+                                                                <ListItem Id="3bf27f6a-2826-4793-b214-22e516e553dd">
+                                                                    <ListItem.Content>
+                                                                        <SharedPart Id="1c55bbb7-0970-4ec7-b745-bc6635f9ab34">
+                                                                            <SharedPart.Customizations>
+                                                                                <Set Property="Label.RichText" Value="burgaskaBatka" Target="51afaaeb-3a31-42bd-99df-f8905656e4a7" />
+                                                                            </SharedPart.Customizations>
+                                                                        </SharedPart>
+                                                                    </ListItem.Content>
+                                                                </ListItem>
+                                                                <ListItem Id="fd12e89b-8ae3-40ed-b710-75f82a6bb477">
+                                                                    <ListItem.Content>
+                                                                        <SharedPart Id="50d6af8d-f529-4392-8d0b-0664bf58815d">
+                                                                            <SharedPart.Customizations>
+                                                                                <Move To="15,11" Target="51afaaeb-3a31-42bd-99df-f8905656e4a7" />
+                                                                                <Set Property="Label.RichText" Value="Liverpool1892&#xD;&#xA;" Target="51afaaeb-3a31-42bd-99df-f8905656e4a7" />
+                                                                            </SharedPart.Customizations>
+                                                                        </SharedPart>
+                                                                    </ListItem.Content>
+                                                                </ListItem>
+                                                                <ListItem Id="6aa253c7-de86-4f57-9484-ae0f0649e1df">
+                                                                    <ListItem.Content>
+                                                                        <SharedPart Id="d9946505-ddb7-4b30-86e0-c8493b325975">
+                                                                            <SharedPart.Customizations>
+                                                                                <Set Property="Label.RichText" Value="...187+&#xD;&#xA;" Target="51afaaeb-3a31-42bd-99df-f8905656e4a7" />
+                                                                            </SharedPart.Customizations>
+                                                                        </SharedPart>
+                                                                    </ListItem.Content>
+                                                                </ListItem>
+                                                            </i:Settings.Items>
+                                                        </i:Settings>
+                                                        <i:TextArea Text="diivPetel:&#xA;some chat here...&#xA;" FontFamily="Open Sans" Id="d119d238-7b4a-46a4-8266-1cc63378bd4b" Panel.Bounds="0,48,217{22,2147483647},94{31,2147483647}" />
+                                                        <i:TextArea Text="voivodata09:&#xA;some more chat....&#xD;&#xA;" FontFamily="Open Sans" Id="0937aede-a72d-4fa5-b230-4f622468691e" Panel.Bounds="0,153,217{22,2147483647},94{31,2147483647}" />
+                                                        <i:TextArea Text="DimoStabilkata:&#xA;some more chat....&#xD;&#xA;" FontFamily="Open Sans" Id="b9d18a18-89c4-4de7-ad7a-4318858ea1a3" Panel.Bounds="0,258,217{22,2147483647},94{31,2147483647}" />
+                                                        <i:TextArea Text="Gonzo_94&#xA;some more chat....&#xD;&#xA;" FontFamily="Open Sans" Id="343930ba-927d-4702-b98b-cfa51d909e97" Panel.Bounds="0,363,217{22,2147483647},94{31,2147483647}" />
+                                                        <i:TextArea Text="Misho:&#xA;some more chat....&#xD;&#xA;" FontFamily="Open Sans" Id="c2396fd1-e9b2-4ec8-8b22-2a0eda429f07" Panel.Bounds="0,468,217{22,2147483647},94{31,2147483647}" />
+                                                        <i:Badge Text="1" FontFamily="Open Sans" Id="1e0a854c-bd37-4ee2-86ee-8c77f7bb7c42" Panel.Bounds="7,7,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Image SourcePath="assets/user-default.png" DevicePixelRatio="0.5" Id="f952c7a9-4010-4598-9ea7-b3133d87ec20" Name="Change Picture" Panel.Bounds="226,412,144{5,2147483647},150{5,2147483647}">
+                                                            <Image.Click>
+                                                                <CommandNavigate Screen="/Customize profile.screen" Created="11/06/2017 16:54:54" Id="c7cbc1ae-d391-4a72-9d70-eb42d0ae4e57">
+                                                                    <CommandNavigate.Transition>
+                                                                        <NavigateTransition Type="Push" Duration="300" />
+                                                                    </CommandNavigate.Transition>
+                                                                </CommandNavigate>
+                                                            </Image.Click>
+                                                        </Image>
                                                     </Container.Children>
                                                 </Container>
                                             </i:TabBarItem.Content>
                                             <i:TabBarItem.Click>
-                                                <CommandNavigate Screen="/Home.screen" Created="11/02/2017 17:21:23" Id="8d971be2-2bb0-4d86-9d99-15581f942401">
+                                                <CommandNavigate Screen="/SendMessage.screen" Created="11/06/2017 16:16:48" Id="875ec448-1bc3-41af-8a0b-95e225af53af">
                                                     <CommandNavigate.Transition>
-                                                        <NavigateTransition Type="Push" Duration="300" />
+                                                        <NavigateTransition Type="Crossfade" Duration="300" />
                                                     </CommandNavigate.Transition>
                                                 </CommandNavigate>
                                             </i:TabBarItem.Click>
-                                        </i:TabBarItem>
-                                        <i:TabBarItem Header="Message" Id="a6624379-212d-465f-8896-9edf85d9ee6c">
-                                            <i:TabBarItem.Icon>
-                                                <Icon CatalogId="Message" Id="bc96368e-ce0e-4c46-b4f8-dadbc43d2189" />
-                                            </i:TabBarItem.Icon>
-                                            <i:TabBarItem.Content>
-                                                <Container ClipToContainer="True" Id="80d8eed5-4b0d-4466-a6c6-ca6ed216b9b6" />
-                                            </i:TabBarItem.Content>
                                         </i:TabBarItem>
                                     </i:TabBar.Items>
                                 </i:TabBar>
                             </Add.Item>
                         </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Disconnected State" ParentScene="fa57146b-ce4a-4787-9647-4d62c501fb64" Created="11/06/2017 15:52:12" Id="8876f544-a58b-4749-9cbc-bdd277b34ab8">
+            <Scene.KeyFrames>
+                <KeyFrame Id="0d7bbc7f-7b0f-4590-a8a1-b997f45b0694">
+                    <KeyFrame.Operations>
+                        <Add Property="Content.SceneApplied" Target="0d4714d5-5bef-4354-b378-e84a7d436760">
+                            <Add.Item>
+                                <ConditionalCommand Id="42a4dc1f-e1b3-4147-a75f-509e37e939e4">
+                                    <ConditionalCommand.Command>
+                                        <CommandSwitchTo SceneId="a65038cb-55a8-4405-bb4f-724c5548a299" Created="11/06/2017 15:52:51" Id="70e954c2-0f48-4c80-b689-bbf58a3b2011" />
+                                    </ConditionalCommand.Command>
+                                    <ConditionalCommand.Condition>
+                                        <SceneCondition Scene="8876f544-a58b-4749-9cbc-bdd277b34ab8" />
+                                    </ConditionalCommand.Condition>
+                                </ConditionalCommand>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Got to Selected Message" StateGroup="8876f544-a58b-4749-9cbc-bdd277b34ab8" ParentScene="8876f544-a58b-4749-9cbc-bdd277b34ab8" Created="11/06/2017 15:52:51" Id="a65038cb-55a8-4405-bb4f-724c5548a299">
+            <Scene.KeyFrames>
+                <KeyFrame Duration="250" Id="5ea027fd-1937-4195-b9cf-0242284338ea">
+                    <KeyFrame.Operations>
                         <Add Property="Panel.Children" Target="497d44ac-301c-4735-8c03-cabbcc8aeb9f">
                             <Add.Item>
-                                <i:TextArea Text="//TODO: add picture here" FontFamily="Open Sans" Id="b3c3b4b5-e92c-4cb5-a317-b6b2f002b55e" Panel.Bounds="0,46,375{22,2147483647},552{31,2147483647}" />
+                                <i:TextArea FontFamily="Open Sans" Id="5067e5ba-b02c-4148-b570-4642dbf0dc27" Panel.Bounds="0,453,375{22,2147483647},145{31,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="497d44ac-301c-4735-8c03-cabbcc8aeb9f">
                             <Add.Item>
-                                <i:Header Text="Bulgaria" FontSize="16" FontFamily="Open Sans" Id="03f91265-c310-4e9e-a53f-957009035881" Panel.Bounds="0,0,375{5,2147483647},45{20,2147483647}" />
+                                <i:Button Text="Send" Background="#FFA3E0AB" FontFamily="Open Sans" FontStyle="Bold" Id="ea818aaa-681c-49df-ae7a-fd68204ced44" Panel.Bounds="228,409,147{16,2147483647},44{16,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+                <KeyFrame Duration="250" Id="9f2ad4f0-ffb6-44f5-accc-01b7577606d1" />
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Disconnected State" ParentScene="fa57146b-ce4a-4787-9647-4d62c501fb64" Created="11/06/2017 16:01:52" Id="92419bcd-e0e8-44f4-ab2d-3d06c0ea3a93">
+            <Scene.KeyFrames>
+                <KeyFrame Id="59959444-6350-4d68-933c-20f089225ad5">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="497d44ac-301c-4735-8c03-cabbcc8aeb9f">
+                            <Add.Item>
+                                <i:TextArea FontFamily="Open Sans" Id="8f116916-7134-4f1a-9cba-8d9bd75e7c44" Panel.Bounds="0,461,375{22,2147483647},137{31,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="497d44ac-301c-4735-8c03-cabbcc8aeb9f">
+                            <Add.Item>
+                                <i:Button Text="Send" Background="#FF75D181" Foreground="#FF1C1C1C" FontSize="24" FontFamily="Roboto Condensed" FontStyle="Bold" Opacity="1" Id="8daf9e14-e0e4-4cc0-94d4-6beacbff1662" Panel.Bounds="231,392,135{16,2147483647},50{16,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
