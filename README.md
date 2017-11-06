@@ -5,5 +5,5 @@
 Participants:
 1. MARIO SLAVOV (view chats screen, join chats screen, view/ban users screen)
 2. DANIEL TOTEV (chatroom screen, user/edit profile screen)
-3. GEORGI GEORGIEV ()
+3. GEORGI GEORGIEV (modified Chatroom screen,Home Screen,SendMessage screen)
 4. SVILEN YANOVSKI (home/list public rooms screen, public room screen)
